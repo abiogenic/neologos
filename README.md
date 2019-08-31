@@ -1,6 +1,12 @@
-4th
-
-Application: a python package to apply OT rules to input words. Package also has functionality to read csv dataframes if words, translations, etc and to transcribe them (although for some languages this is a beast in and of itself so I may remove this for languages that donʼt have easy 1-to-1 ipa to orthography correspondents).
+                         __                               
+   ____   ___   ____    / /  ____    ____ _  ____    _____
+  / __ \ / _ \ / __ \  / /  / __ \  / __ `/ / __ \  / ___/
+ / / / //  __// /_/ / / /  / /_/ / / /_/ / / /_/ / (__  ) 
+/_/ /_/ \___/ \____/ /_/   \____/  \__, /  \____/ /____/  
+                                  /____/                  
+                                  
+                                  
+Neologos: a python package to apply OT rules to input words. Package also has functionality to read csv dataframes if words, translations, etc and to transcribe them (although for some languages this is a beast in and of itself so I may remove this for languages that donʼt have easy 1-to-1 ipa to orthography correspondents).
 
 Hereʼs an example of the input, from which a script randomly draws an affix and a root word that will work with it, and organizes them in the correct order. Then the package can be called to analyze this new word.
 
