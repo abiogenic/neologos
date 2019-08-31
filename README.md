@@ -2,11 +2,17 @@ neologos
 
 
 
-  ┌┐┌┌─┐┌─┐┬  ┌─┐┌─┐┌─┐┌─┐
-  
-  │││├┤ │ ││  │ ││ ┬│ │└─┐
-  
-  ┘└┘└─┘└─┘┴─┘└─┘└─┘└─┘└─┘
+                                                                      
+                              ,,                                      
+                            `7MM                                      
+                              MM                                      
+`7MMpMMMb.  .gP"Ya   ,pW"Wq.  MM  ,pW"Wq.   .P"Ybmmm ,pW"Wq.  ,pP"Ybd 
+  MM    MM ,M'   Yb 6W'   `Wb MM 6W'   `Wb :MI  I8  6W'   `Wb 8I   `" 
+  MM    MM 8M"""""" 8M     M8 MM 8M     M8  WmmmP"  8M     M8 `YMMMa. 
+  MM    MM YM.    , YA.   ,A9 MM YA.   ,A9 8M       YA.   ,A9 L.   I8 
+.JMML  JMML.`Mbmmd'  `Ybmd9'.JMML.`Ybmd9'   YMMMMMb  `Ybmd9'  M9mmmP' 
+                                           6'     dP                  
+                                           Ybmmmd'     
 
 Neologos: a python package to apply OT rules to input words. Package also has functionality to read csv dataframes if words, translations, etc and to transcribe them (although for some languages this is a beast in and of itself so I may remove this for languages that donʼt have easy 1-to-1 ipa to orthography correspondents).
 
