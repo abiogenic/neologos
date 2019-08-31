@@ -23,12 +23,13 @@ from operator import *
 
 import pandas as pd
 import numpy as np
+import sounds
 from sounds import *
 from classes import *
 from global_settings import *
 
 #===================================================================================#
-#==================================---CLASSES=======================================#
+#=====================================CLASSES=======================================#
 #===================================================================================#
 
 def repair_word(word):
@@ -51,7 +52,7 @@ def tokenize_word(string):
 	print("string: ", string)
 	#print([str(element) for element in string])
 	for element in string:
-		if element in stress:
+		if element in sounds.stresses:
 			pass
 		else:
 			string_stripped = string_stripped + str(element)	
@@ -69,7 +70,7 @@ def tokenize_word(string):
 	temp_string = str()
 
 	for i in new_string:
-		if i in suprasegmentals:
+		if i in sounds.suprasegmentals:
 			temp_string = temp_string + "."
 		else:
 			temp_string = temp_string + i
@@ -86,7 +87,7 @@ def tokenize_word(string):
 		syllable_dict = {i:syllable[i] for i in range(0,len(syllable))}
 		for key in range(0,len(syllable)):
 			l = syllable[key]
-			if l in vowels:
+			if l in sounds.vowels:
 				keys.append(key)
 				vowel_count = vowel_count + 1
 		if vowel_count > 1:
@@ -177,13 +178,25 @@ def insert_sound(word,sound,index_l,index_r = 'none'):
 		word = repair_word(word)
 		return(word)
 	else:
-		#lower_bound = sorted(word.dict_stripped.keys())[index_l]
 		upper_bound = sorted(word.dict_stripped.keys())[index_l]
 		new_key = rand.uniform(upper_bound-1,upper_bound)
 		word.dict[new_key] = sound
 		word = repair_word(word)
 		return(word)
 
+def change_sound(word,sound,index):
+	word.dict[index] = sound
+	word = repair_word(word)
+	return(word)
+
+# def delete_sound(word,index_l):
+# 	del word.dict[index_l]
+# 	new_word = str()
+# 	for value in word.dict.values():
+# 		new_word = new_word + value
+# 	print(new_word)
+# 	word = Word(tokenize_word(new_word))
+# 	return(word)
 
 
 

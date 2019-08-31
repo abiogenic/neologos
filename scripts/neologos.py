@@ -39,6 +39,7 @@ except:
 from sounds import *
 from functions import *
 from classes import *
+from changes import *
 from global_settings import *
  
 if needs_dependency:
@@ -211,57 +212,13 @@ def check_words(file_name):
 
 		for i in range(0,1):
 
-			word, is_changed = insertions.initial(word,'n')
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
+			word = phone_rasing(word)
+			word = phone_lowering(word)
 
-			word, is_changed = insertions.initial(word,'i',nasals)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			word, is_changed = insertions.initial(word,'a',plosives)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			new_condition = approximants + laterals
-			word, is_changed = insertions.medial(word,nasals,'p',new_condition)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			word, is_changed = insertions.final(word,'i',approximants)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			word, is_changed = deletions.initial(word,'a',plosives)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			word, is_changed = deletions.medial(word,plosives,'j','i')
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
-			word, is_changed = deletions.final(word,'i',approximants)
-			if is_changed:
-				row.append(word)
-			else:
-				row.append("")
-
+			print("new string: \t\t", word.string)
+			print("new string_s: \t\t",word.string_stripped)
+			row.append(word)
 			
-
 		output.append(row)
 
 	with open(file_name, 'w', newline='', encoding='utf-8') as f:

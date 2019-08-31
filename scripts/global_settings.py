@@ -25,10 +25,18 @@ ipa_file_name = 'ipa.csv'
 onsets = ["p","m","t","n","r","s","l","c","k","j","ç","ʀ"]
 geminate_consonants = ["pp","tt","kk","cc"]
 complex_onsets = ["pl","ts","cç","ln","ps"]
-nuclear_vowels = ["i","a","u"]
+nuclear_vowels = ["i","a","u","o","ɛ"]
 diphthongs = ["ai","au","aː","iu","ia","iː","ua","ui","uː","ɛː"]
 codas = ["p","m","t","n","r","s","l","c","k","j","ɱ","ɳ","ŋ","ç","ʀ"]
 syllabic_consonants = ["m","n","l","ɱ","ɳ","ŋ"]
 
 fix_randomization = True		# boolean (set to True to set seed)
 seed_variable = 2				# any integer, even if fix_randomization is False
+
+#===================================================================================#
+#=====================================CHANGES=======================================#
+#===================================================================================#
+
+# insert, change, delete
+# insertions.initial(word,'n')
+

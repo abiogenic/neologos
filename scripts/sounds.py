@@ -201,7 +201,7 @@ def deaffricate(consonant):
 vowels = list(ipa.loc[ipa.iloc[:]['type']=='vowel'][:].index)
 consonants = list(ipa.loc[ipa.iloc[:]['type']=='consonant'][:].index)
 diacritics = list(ipa.loc[ipa.iloc[:]['type']=='diacritic'][:].index)
-stress = list(ipa.loc[ipa.iloc[:]['type']=='stress'][:].index)
+stresses = list(ipa.loc[ipa.iloc[:]['type']=='stress'][:].index)
 suprasegmentals = list(ipa.loc[ipa.iloc[:]['type']=='suprasegmental'][:].index)
 
 voiced = list(ipa.loc[ipa.iloc[:]['voicing']=='voiced'][:].index)
