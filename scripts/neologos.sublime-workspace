@@ -1,0 +1,1135 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sampl",
+				"sample_string"
+			],
+			[
+				"find",
+				"find_diacritics"
+			],
+			[
+				"new",
+				"new_condition"
+			],
+			[
+				"vowe",
+				"vowel_count"
+			],
+			[
+				"string",
+				"string_stripped"
+			],
+			[
+				"syllable",
+				"syllable_map"
+			],
+			[
+				"sy",
+				"syllable_map"
+			],
+			[
+				"dict",
+				"dict_stripped"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"stripped",
+				"string_stripped"
+			],
+			[
+				"iter",
+				"iter_key"
+			],
+			[
+				"stri",
+				"string_stripped"
+			],
+			[
+				"p",
+				"plosives"
+			],
+			[
+				"word",
+				"word_dict"
+			],
+			[
+				"syll",
+				"syllable_len"
+			],
+			[
+				"main",
+				"main_stress"
+			],
+			[
+				"syl",
+				"syllable_len"
+			],
+			[
+				"gemin",
+				"geminate_freq"
+			],
+			[
+				"gem",
+				"geminate_consonants"
+			],
+			[
+				"coda",
+				"codas"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"sylla",
+				"syllable_len"
+			],
+			[
+				"conson",
+				"consonants"
+			],
+			[
+				"print",
+				"printout"
+			],
+			[
+				"prin",
+				"printout"
+			],
+			[
+				"stop",
+				"stop_condition"
+			],
+			[
+				"sum",
+				"sum_xy"
+			],
+			[
+				"run",
+				"runCycleCount"
+			],
+			[
+				"haplo",
+				"haplotype1"
+			],
+			[
+				"li",
+				"listOfPositionsForLociSorted"
+			],
+			[
+				"create",
+				"create"
+			],
+			[
+				"file",
+				"filename_in"
+			],
+			[
+				"filen",
+				"filename_out"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"IPA",
+				"IPAVowel"
+			],
+			[
+				"IP",
+				"IPAString"
+			],
+			[
+				"vowel",
+				"vowel_harmony"
+			],
+			[
+				"list",
+				"list_of_words"
+			],
+			[
+				"comp",
+				"complex_onset"
+			],
+			[
+				"phone",
+				"phone_index"
+			],
+			[
+				"tart",
+				"target_pos"
+			],
+			[
+				"tra",
+				"transcription"
+			],
+			[
+				"syllabl",
+				"syllable_position"
+			],
+			[
+				"char",
+				"char_position"
+			],
+			[
+				"lett",
+				"letter_pos"
+			],
+			[
+				"as",
+				"assignments"
+			],
+			[
+				"phones",
+				"phones_by_ipa"
+			],
+			[
+				"column_",
+				"column_to_change"
+			],
+			[
+				"final",
+				"final_devoicing"
+			],
+			[
+				"large",
+				"large_filename"
+			],
+			[
+				"trans",
+				"transitive"
+			],
+			[
+				"prob",
+				"probability_lang2"
+			],
+			[
+				"probab",
+				"probability_lang1"
+			],
+			[
+				"nex",
+				"nextPhonSuggestions"
+			],
+			[
+				"chara",
+				"indexCharacters"
+			],
+			[
+				"fast",
+				"fastqFile1"
+			],
+			[
+				"input",
+				"inputList"
+			],
+			[
+				"max",
+				"maxMatches"
+			],
+			[
+				"maxMatch",
+				"maxMatchStrength"
+			],
+			[
+				"line",
+				"line"
+			],
+			[
+				"temp",
+				"tempList"
+			],
+			[
+				"encounter",
+				"encounter_id_list"
+			],
+			[
+				"ra",
+				"randint"
+			],
+			[
+				"party",
+				"party_is_full"
+			],
+			[
+				"gender",
+				"genderInput"
+			],
+			[
+				"name",
+				"nameInput"
+			],
+			[
+				"habitat",
+				"habitat_id"
+			],
+			[
+				"id",
+				"identifier"
+			],
+			[
+				"gend",
+				"gender_rate"
+			],
+			[
+				"move",
+				"movesetSlots"
+			],
+			[
+				"mo",
+				"movesetSlots"
+			],
+			[
+				"min",
+				"minValue"
+			],
+			[
+				"message",
+				"messageScreenNR"
+			],
+			[
+				"data",
+				"dataElements"
+			],
+			[
+				"ply",
+				"playerPokemon"
+			],
+			[
+				"type",
+				"typeEfficacyData"
+			],
+			[
+				"wild",
+				"wildPokemon"
+			],
+			[
+				"pokemon",
+				"pokemonBattle"
+			],
+			[
+				"HP",
+				"HPstat"
+			],
+			[
+				"Temp",
+				"tempSave"
+			],
+			[
+				"charac",
+				"characterGender"
+			],
+			[
+				"load",
+				"loadFile"
+			],
+			[
+				"types",
+				"types_csv"
+			],
+			[
+				"maxHigh",
+				"maxHighlightHue"
+			],
+			[
+				"indiv",
+				"individualsAndTheirHaplotypes"
+			],
+			[
+				"hapl",
+				"haplotypeIndex"
+			],
+			[
+				"csvFile",
+				"csvFileList"
+			],
+			[
+				"csv",
+				"csvFileList"
+			],
+			[
+				"csvFil",
+				"csvFileMatrix"
+			],
+			[
+				"hap",
+				"haplotypeListConcatenated"
+			],
+			[
+				"nam",
+				"fileNameList"
+			],
+			[
+				"colo",
+				"colorMatrix"
+			],
+			[
+				"indi",
+				"individualsAndTheirHaplotypes"
+			],
+			[
+				"fre",
+				"frequencyIteration"
+			],
+			[
+				"all",
+				"allVarAllele"
+			],
+			[
+				"var",
+				"varFreq"
+			],
+			[
+				"this",
+				"thisIndividual"
+			],
+			[
+				"ref",
+				"refAllele"
+			],
+			[
+				"lin",
+				"listOfListsForLociForEachIndividual"
+			],
+			[
+				"uniqu",
+				"unique_list"
+			],
+			[
+				"addedHaplo",
+				"addedHaplotype2"
+			],
+			[
+				"lis",
+				"listOfListsForLociForEachIndividual"
+			],
+			[
+				"minSi",
+				"minSitePosition"
+			],
+			[
+				"haplot",
+				"haplotypeList"
+			],
+			[
+				"het",
+				"hetCountList"
+			],
+			[
+				"homo",
+				"homoCountForSite"
+			],
+			[
+				"lociPosition",
+				"lociPositionList"
+			],
+			[
+				"fileName",
+				"fileNameList"
+			],
+			[
+				"fileNa",
+				"fileNameList"
+			],
+			[
+				"convert",
+				"convertRowBinaryToColor"
+			],
+			[
+				"tempList",
+				"tempListToAddToDictionary"
+			],
+			[
+				"templis",
+				"tempListToAddToDictionary"
+			],
+			[
+				"ex",
+				"exampleListToAddToDictionary"
+			],
+			[
+				"exampl",
+				"EXAMPLE"
+			],
+			[
+				"each",
+				"eachIndividualsDictionary"
+			],
+			[
+				"findMoveset",
+				"findMovesetfromMethod"
+			],
+			[
+				"findMove",
+				"findMovesStats"
+			],
+			[
+				"level",
+				"levelUpMoveset"
+			],
+			[
+				"is",
+				"isDexNumber"
+			],
+			[
+				"leng",
+				"lengthNameLongest"
+			],
+			[
+				"stat",
+				"statRequested"
+			],
+			[
+				"d",
+				"def\tFunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "neologos.py",
+			"settings":
+			{
+				"buffer_size": 7799,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tiveseher/Documents/GitHub-Repositories/neologos/input/ipa_characters_csv",
+			"settings":
+			{
+				"buffer_size": 400,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "ʄ"
+			}
+		},
+		{
+			"file": "changes.py",
+			"settings":
+			{
+				"buffer_size": 4800,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "classes.py",
+			"settings":
+			{
+				"buffer_size": 3725,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.py",
+			"settings":
+			{
+				"buffer_size": 5511,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "global_settings.py",
+			"settings":
+			{
+				"buffer_size": 2377,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sounds.py",
+			"settings":
+			{
+				"buffer_size": 8988,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tiveseher/Documents/GitHub-Repositories/neologos/letters_and_diacritics.csv",
+			"settings":
+			{
+				"buffer_size": 442,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import os; package_path = os.path.join(sublime.packages_path(), \"C4BStudent\"); os.mkdir(package_path) if not os.path.isdir(package_path) else print(\"dir exists\"); c4b_py = os.path.join(package_path, \"Code4Brownies.py\") ; c4b_menu = os.path.join(package_path, \"Main.sublime-menu\"); c4b_version = os.path.join(package_path, \"VERSION\"); import urllib.request; urllib.request.urlretrieve(\"https://raw.githubusercontent.com/vtphan/Code4Brownies/master/src/C4BStudent/Code4Brownies.py\", c4b_py); urllib.request.urlretrieve(\"https://raw.githubusercontent.com/vtphan/Code4Brownies/master/src/C4BStudent/Main.sublime-menu\", c4b_menu); urllib.request.urlretrieve(\"https://raw.githubusercontent.com/vtphan/Code4Brownies/master/src/VERSION\", c4b_version)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/changes.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/sounds.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/global_settings.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/functions.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/classes.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/neologos.py",
+		"/Users/tiveseher/Documents/.gitignore",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/weakenings.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/inventory.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/insertions.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/deletions.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/4th/scripts/main.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/icHET-tools/scripts/README.txt",
+		"/Users/tiveseher/Documents/GitHub Repositories/icHET-tools/scripts/config.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/icHET-tools/scripts/main.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/icHET-tools/scripts/shorten_csvs.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/icHET-tools/scripts/create_vcfs.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/shorten_csvs.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/polyploid_normalized.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/main.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/haplotype_phasing.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/hap_functions.py",
+		"/Users/tiveseher/Documents/GitHub Repositories/polyMAP/scripts/create_vcfs.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/Programming/writingHTML/breeding.py",
+		"/Users/tiveseher/Desktop/4th/scripts/insertions.py",
+		"/Users/tiveseher/Desktop/4th/scripts/deletions.py",
+		"/Users/tiveseher/Documents/OneDrive/From USB-C/OTProject/ot.py",
+		"/Users/tiveseher/Desktop/4th/output/inventory_4th.csv",
+		"/Users/tiveseher/Desktop/4th/scripts/main.py",
+		"/Volumes/Jirejeteyin/4th/scripts/main.py",
+		"/Users/tiveseher/Desktop/4th/scripts/inventory.py",
+		"/Volumes/Jirejeteyin/4th/scripts/insertions.py",
+		"/Volumes/Jirejeteyin/4th/scripts/global_settings.py",
+		"/Volumes/Jirejeteyin/4th/scripts/deletions.py",
+		"/Volumes/Jirejeteyin/4th/scripts/weakenings.py",
+		"/Users/tiveseher/Desktop/4th/inventory_4th.csv",
+		"/Users/tiveseher/Desktop/4th/ipa.csv",
+		"/Users/tiveseher/Desktop/4th/weakenings.py",
+		"/Users/tiveseher/Desktop/4th/insertions.py",
+		"/Users/tiveseher/Desktop/4th/deletions.py",
+		"/Users/tiveseher/Desktop/4th/global_settings.py",
+		"/Users/tiveseher/Desktop/4th/inventory_4th.py",
+		"/Users/tiveseher/Desktop/4th/output.csv",
+		"/Users/tiveseher/Desktop/4th/1.py",
+		"/Users/tiveseher/Documents/OneDrive/inventory_4th.py",
+		"/Users/tiveseher/Documents/OneDrive/4th/inventory_4th.py",
+		"/Users/tiveseher/Documents/OneDrive/From USB-C/inventory_4th.csv",
+		"/Users/tiveseher/Documents/OneDrive/From USB-C/inventory_4th.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/Phoneme_Inventories/Bayesian Learner/cleandata.py",
+		"/Users/tiveseher/Documents/OneDrive/inventory_4th.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/short_cleaned_data.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/dummy_data.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/output_vowel_chart.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/firm_bayesian_learner.py",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/cleandata_surveydata.py",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/cleandata.py",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/consonant_chart.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/vowel_chart.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/output_consonant_chart.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/grocery_survey_answers.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/grocery_survey.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/Bayesian Learner/cleaned_data.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/demo_inventory.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/demo_pattern_output.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/pattern_output_via_pandas3.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/pattern_finder.py",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/output.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/inventory_creator.py",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/pattern_output_via_pandas.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/short_phioble.csv",
+		"/Volumes/Jirejeteyin/OTProject/Phoneme_Inventories/cleandata.py",
+		"/Volumes/Jirejeteyin/inventories_by_language.csv",
+		"/Volumes/Jirejeteyin/phones_list.csv",
+		"/Volumes/Jirejeteyin/clean_phone_dups.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/inventory_creator.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/word_creator_gvwtokori_brute_force.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/test.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/OTProject/ot.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-08-06/cp.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/backup_HP.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/haplotype_phasing.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/haplotype_parser.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/hap_functions.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/main.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-08-06/cp.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-08-06/mt.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-08-06/mt.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-08-06/SRR2146940_1_processed.vcf",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-08-06/SRR2146940_1_processed.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/pokellector/functions.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-07-30/cp.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-07-30/mt.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-08-05/SRR2146923_1_processed.vcf",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-08-05/SRR2146951_1_processed.vcf",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-07-29/cp.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-07-29/mt.txt",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/cp/2019-07-29/cp.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-07-29/mt.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/shorten_csvs.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/create_vcfs.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/output/mt/2019-07-29/df.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/polyploid_normalized.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/test.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/vcfs.sublime-project",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/vcfs.sublime-workspace",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/mt_csv_run_07-19-19/SRR2146923_1_processed.csv",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/scripts/polyploidNormalized.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotyping_old/haplotypingTest.py",
+		"/Users/tiveseher/Documents/OneDrive/Projects/haplotype_parser/mt_csv_run_07-19-19/create_vcfs.py",
+		"/Users/tiveseher/haplotype_parser/working_prototype/testSample1.vcf",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/aaaaaa.csv",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/add_simple_english.csv",
+		"/Users/tiveseher/haplotype_parser/mt_csv/working_prototype/polyploidNormalized.py",
+		"/Users/tiveseher/haplotype_parser/cp_csv/SRR2146923_1_processed.csv",
+		"/Users/tiveseher/haplotype_parser/mt_csv/run_haplotype_prep.py",
+		"/Users/tiveseher/haplotype_parser/cp_csv/process_csvs.py",
+		"/Users/tiveseher/haplotype_parser/mt_csv/working_prototype/testSample7.vcf",
+		"/Users/tiveseher/haplotype_parser/mt_csv/working_prototype/notResolvable.vcf",
+		"/Users/tiveseher/mt_csv/haplotype_prep.py",
+		"/Users/tiveseher/mt_csv/haplotype_parser.py",
+		"/Users/tiveseher/haplotype_parser/mt_csv/hapFunct.py",
+		"/Users/tiveseher/mt_csv/run_haplotype_prep.sh",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/phonology.py",
+		"/Users/tiveseher/findReads/VCF_file_noDeletions.vcf~",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/script.csv",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/word_creator.py",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/config.txt",
+		"/Users/tiveseher/Documents/OneDrive/OTProject/phones.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t",
+			" ",
+			"\\n",
+			"\\W",
+			"\\n",
+			"\\t",
+			"\\W",
+			"\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "neologos.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6841,
+								6841
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3245.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/tiveseher/Documents/GitHub-Repositories/neologos/input/ipa_characters_csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ʄ",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "changes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "classes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "functions.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "global_settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sounds.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/Users/tiveseher/Documents/GitHub-Repositories/neologos/letters_and_diacritics.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 27.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/OneDrive/OTProject/OTProject.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

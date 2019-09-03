@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin python3.7
 # coding: utf-8
 # dependences: pandas, numpy
 
@@ -16,8 +16,13 @@ import glob
 import shutil
 from datetime import datetime, timedelta
 from operator import *
+import string
+
+import unicodedata
 
 wd = os.getcwd()
+
+print(sys.version)
 
 #===================================================================================#
 #==================================DEPENDENCIES=====================================#
@@ -228,6 +233,61 @@ def check_words(file_name):
 #===================================================================================#
 #==================================FUNCTION CALLS===================================#
 #===================================================================================#
+
+def find_diacritics(string):
+	letters = []
+	diacritics = []
+
+	for key in range(0,len(sample_string)):
+		i = sample_string[key]
+		if 'COMBINING' in unicodedata.name(i) or 'MODIFIER' in unicodedata.name(i) or 'SUPERSCRIPT' in unicodedata.name(i) or 'SUBSCRIPT' in unicodedata.name(i):
+			diacritics.append(i)
+		elif i.isalpha():
+			print(i)
+			if i not in letters:
+				letters.append(i)
+		elif i == ".":
+			pass
+		elif i.isspace():
+			pass
+		else:
+			if i not in letters:
+				print(i)
+				diacritics.append(i)
+
+
+	letters = list(set(letters))
+	diacritics = list(set(diacritics))
+	
+
+	with open('letters_and_diacritics.csv', 'w', newline='', encoding='utf-8') as f:
+		writer = csv.writer(f)
+		writer.writerows(letters)
+		writer.writerow("=====================")
+		writer.writerows(diacritics)
+
+	return(letters,diacritics)
+
+letters,diacritics = find_diacritics(sample_string)
+
+
+print(letters)
+
+print("=====")
+
+print(diacritics)
+
+# u = chr(233) + chr(0x0bf2) + chr(3972) + chr(6000) + chr(13231)
+
+# for i, c in enumerate(u):
+#     print(i, '%04x' % ord(c), unicodedata.category(c), end=" ")
+#     print(unicodedata.name(c))
+
+# # Get numeric value of second character
+# print(unicodedata.numeric(u[1]))
+
+
+quit()
 
 os.chdir(output_dir)
 
