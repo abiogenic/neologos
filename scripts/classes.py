@@ -46,13 +46,18 @@ class Phone:
 class Word:
 	def __init__(self,string):
 		
+		unicode_letters, unicode_diacritics = sounds.find_diacritics(sample_string)
+
 		string = "[" + string + "]"
 		self.dict = {i:string[i] for i in range(0,len(string))}
 		
 		self.dict_stripped = copy.deepcopy(self.dict)
+		self.dict_stripped_diacritics = copy.deepcopy(self.dict)
 		for key in self.dict.keys():
-			if self.dict[key] in ["[","]","ˈ","ˌ","|","."]:
+			if self.dict[key] in ["[",".","]","|","ˈ","ˌ"]:
 				del self.dict_stripped[key]
+			if self.dict[key] in unicode_diacritics:
+				del self.dict_stripped_diacritics[key]
 
 		self.string = str()
 		for i in self.dict.values():

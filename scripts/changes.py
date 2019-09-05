@@ -73,18 +73,18 @@ def palatalization(word):
 def phone_rasing(word,vowels=list(mid_vowels + close_mid_vowels + near_close_vowels + close_vowels)):										
 																	# vowels is a list of one or more vowels (including category lists from "sounds.py")
 # 	Phone Rasing					tet > tit						low or mid vowels raise to mid or high vowels
-	for key in word.dict_stripped.keys():
-		if word.dict_stripped[key] in vowels:
-			v = raise_vowel(word.dict_stripped[key])
+	for key in word.dict_stripped_diacritics.keys():
+		if word.dict_stripped_diacritics[key] in vowels:
+			v = raise_vowel(word.dict_stripped_diacritics[key])
 			word = change_sound(word,v,key)
 	return(word)
 
 def phone_lowering(word,vowels=list(open_vowels + near_open_vowels + open_mid_vowels + mid_vowels)):
 																	# vowels is a list of one or more vowels (including category lists from "sounds.py")
 # 	Phone Lowering					tut > tat						high or mid vowels lowering to mid or low vowels
-	for key in word.dict_stripped.keys():
-		if word.dict_stripped[key] in vowels:
-			v = lower_vowel(word.dict_stripped[key])
+	for key in word.dict_stripped_diacritics.keys():
+		if word.dict_stripped_diacritics[key] in vowels:
+			v = lower_vowel(word.dict_stripped_diacritics[key])
 			word = change_sound(word,v,key)
 	return(word)
 

@@ -17,6 +17,8 @@ import shutil
 from datetime import datetime, timedelta
 from operator import *
 
+import unicodedata
+
 #===================================================================================#
 #===================================DEFNITIONS======================================#
 #===================================================================================#
@@ -30,6 +32,32 @@ from global_settings import *
 low_to_high = ['open','near-open','open-mid','mid','close-mid','near-close','close']
 front_to_back = ['front','near-front','central','near-back','back']
 sonorous_to_non = ['vowel','glide','liquid','nasal','obstruent']
+
+def find_diacritics(string):
+	unicode_letters = []
+	unicode_diacritics = []
+
+	for key in range(0,len(sample_string)):
+		i = sample_string[key]
+		if 'COMBINING' in unicodedata.name(i) or 'MODIFIER' in unicodedata.name(i) or 'SUPERSCRIPT' in unicodedata.name(i) or 'SUBSCRIPT' in unicodedata.name(i):
+			unicode_diacritics.append(i)
+		elif i.isalpha():
+			if i not in unicode_letters:
+				unicode_letters.append(i)
+		else:
+			if i not in unicode_letters:
+				unicode_diacritics.append(i)
+
+	unicode_letters = list(set(unicode_letters))
+	unicode_diacritics = list(set(unicode_diacritics))
+	
+	with open('letters_and_diacritics.csv', 'w', newline='', encoding='utf-8') as f:
+		writer = csv.writer(f)
+		writer.writerows(unicode_letters)
+		writer.writerow("=====================")
+		writer.writerows(unicode_diacritics)
+
+	return(unicode_letters,unicode_diacritics)
 
 def get_consonant(phone_attributes):
 	query = ipa
