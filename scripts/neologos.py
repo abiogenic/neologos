@@ -89,9 +89,9 @@ current_date = timestamp[0]
 #=====================================FUNCTIONS=====================================#
 #===================================================================================#
 
-def create_words(file_name):
+def create_words():
 
-	output = []
+	data = []
 
 	for i in range(0,words_to_create):
 
@@ -189,48 +189,53 @@ def create_words(file_name):
 		print("word\t", x.string)
 		# print("feet\t", x.feet)
 		# print("syllables\t", x.syllables)
-		output.append([new_word])
+		data.append([new_word])
 
-	with open(file_name, 'w', newline='', encoding='utf-8') as f:
-		writer = csv.writer(f)
-		writer.writerows(output)
+	return(data)
 
-	return(output)
+def check_words(data):
 
-def check_words(file_name):
-	with open(file_name, 'r', newline='', encoding='utf-8') as f:
-		reader = csv.reader(f)
-		unprocessed_words = [i[0] for i in reader]
-		
-	output = []
+	unprocessed_words = copy.deepcopy(data)
 
-	for unprocessed_word in unprocessed_words:
+	data = []
+
+	print(unprocessed_words)
+
+	for word in [i[0] for i in unprocessed_words]:
 		print("\n\n")
-		
 		print("=================================")
-		word = Word(unprocessed_word)
-
-		row = [word]
+		word = Word(word)
+		row = [str(word)]
 
 		print("original string: \t", word.string)
 		print("original string_s: \t",word.string_stripped)
 
 		for i in range(0,1):
 
-			word = phone_rasing(word)
+			#word = phone_rasing(word)
 			word = phone_lowering(word)
 
 			print("new string: \t\t", word.string)
 			print("new string_s: \t\t",word.string_stripped)
-			row.append(word)
+			row.append(str(word))
+
+			word = phone_lowering(word)
+
 			
-		output.append(row)
+			print("new string: \t\t", word.string)
+			print("new string_s: \t\t",word.string_stripped)
+			row.append(str(word))
+			
+		data.append(row)
+
+	return(data)
+
+def write_file(data, file_name):
 
 	with open(file_name, 'w', newline='', encoding='utf-8') as f:
 		writer = csv.writer(f)
-		writer.writerows(output)
+		writer.writerows(data)
 
-	return(output)
 
 #===================================================================================#
 #==================================FUNCTION CALLS===================================#
@@ -238,11 +243,17 @@ def check_words(file_name):
 
 os.chdir(output_dir)
 
-create_words(file_name)
+words = create_words()
 
-words = check_words(file_name)
+words = check_words(words)
 
-for i in words:
-	print(i[0].string_stripped)
+print(words)
+
+write_file(words, file_name)
+
+for line in words:
+	for cell in line:
+		word = Word(cell)
+		print(word.string_stripped)
 
 

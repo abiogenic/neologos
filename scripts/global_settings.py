@@ -6,17 +6,17 @@
 #=====================================SETTINGS======================================#
 #===================================================================================#
 
-words_to_create = 100			# any integer
+words_to_create = 10			# any integer
 stress_feet = 'l'				# 'l' or 'r' or 'm' if foot_max == 3
 build_feet = 'r'				# 'l' or 'r'
 main_stressed_foot = 'l'		# 'l' or 'r' or int <= min_len/foot_max -1
-syllabic_consonant_freq = 0.2	# float 0.0 - 1.0
+syllabic_consonant_freq = 0.0	# float 0.0 - 1.0
 complex_onsets_freq = 0.0		# float 0.0 - 1.0
 complex_nucleus_freq = 0.0		# float 0.0 - 1.0
-coda_frequency = 0.2			# float 0.0 - 1.0
-geminate_freq = 0.2				# float 0.0 - 1.0
-min_len = 4						# any integer <= max_len
-max_len = 5						# any integer >= min_len
+coda_frequency = 0.0			# float 0.0 - 1.0
+geminate_freq = 0.0				# float 0.0 - 1.0
+min_len = 2						# any integer <= max_len
+max_len = 2						# any integer >= min_len
 foot_max = 2					# any integer (ideally 2 or 3)
 
 file_name = 'inventory_4th.csv'

@@ -56,7 +56,8 @@ class Word:
 		for key in self.dict.keys():
 			if self.dict[key] in ["[",".","]","|","ˈ","ˌ"]:
 				del self.dict_stripped[key]
-			if self.dict[key] in unicode_diacritics:
+				del self.dict_stripped_diacritics[key]
+			elif self.dict[key] in unicode_diacritics:
 				del self.dict_stripped_diacritics[key]
 
 		self.string = str()
@@ -66,6 +67,10 @@ class Word:
 		self.string_stripped = str()
 		for i in self.dict_stripped.values():
 			self.string_stripped = str(self.string_stripped + str(i))
+
+		self.string_stripped_diacritics = str()
+		for i in self.dict_stripped_diacritics.values():
+			self.string_stripped_diacritics = str(self.string_stripped_diacritics + str(i))
 		
 		self.syllables = []
 		self.feet = []
