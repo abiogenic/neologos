@@ -93,7 +93,7 @@ def nasalization(word):
 	return(word)
 
 def compensatory_lengthening(word):
-# 	Compensatory Lengthening		tast > taːt						vowel lengthens to fill space from deletion
+# 	Compensatory Lengthening		tast > ta:t						vowel lengthens to fill space from deletion
 	return(word)
 
 #####=====INSERTION=====#####################
